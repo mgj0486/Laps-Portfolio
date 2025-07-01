@@ -1,42 +1,42 @@
 ## ✨ 소개
 
-**MyLaps**는 피트니스 트래킹 iOS 애플리케이션입니다. GPS 기반 실시간 트래킹부터 HealthKit 통합, 편리한 러닝을 위한 Siri Intent부터 위젯, Live Activity를 제공합니다.
+**MyLaps(가제)**는 피트니스 트래킹 iOS 애플리케이션입니다. GPS 기반 실시간 트래킹부터 HealthKit 통합, 편리한 러닝을 위한 Siri Intent부터 위젯, Live Activity를 제공합니다.
 
 ## 🎯 주요 기능
 
 <table>
-<td width="100%">
+<tr width="100%">
 
 ### 🗺️ 실시간 GPS 트래킹
 - 정확한 경로 추적
 - 실시간 거리, 속도, 페이스 측정
 - 고도 변화 기록
 
-</td>
-<td width="100%">
+</tr>
+<tr width="100%">
 
 ### 📱 Live Activities
 - 잠금 화면에서 실시간 상태 확인
 - Dynamic Island 지원
 - 한눈에 보는 러닝 정보
 
-</td>
-<td width="100%">
+</tr>
+<tr width="100%">
 
 ### ❤️ HealthKit 통합
 - Apple Health와 완벽 연동
 - 칼로리, 심박수 자동 기록
 - 종합적인 건강 데이터 관리
 
-</td>
-<td width="100%">
+</tr>
+<tr width="100%">
 
 ### 🎙️ Siri 단축어
 - "Hey Siri, 러닝 시작해줘"
 - 음성으로 간편하게 제어
 - 핸즈프리 러닝 경험
 
-</td>
+</tr>
 </table>
 
 ### 🌟 추가 기능
