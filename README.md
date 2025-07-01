@@ -1,6 +1,6 @@
 ## ✨ 소개
 
-**MyLaps(가제)**는 피트니스 트래킹 iOS 애플리케이션입니다. GPS 기반 실시간 트래킹부터 HealthKit 통합, 편리한 러닝을 위한 Siri Intent부터 위젯, Live Activity를 제공합니다.
+**MyLaps**(가제)는 피트니스 트래킹 iOS 애플리케이션입니다. GPS 기반 실시간 트래킹부터 HealthKit 통합, 편리한 러닝을 위한 Siri Intent부터 위젯, Live Activity를 제공합니다.
 
 ## 🎯 주요 기능
 
@@ -8,9 +8,8 @@
 <tr width="100%">
 
 ### 🗺️ 실시간 GPS 트래킹
-- 정확한 경로 추적
+- 경로 추적
 - 실시간 거리, 속도, 페이스 측정
-- 고도 변화 기록
 
 </tr>
 <tr width="100%">
@@ -18,48 +17,37 @@
 ### 📱 Live Activities
 - 잠금 화면에서 실시간 상태 확인
 - Dynamic Island 지원
-- 한눈에 보는 러닝 정보
 
 </tr>
 <tr width="100%">
 
 ### ❤️ HealthKit 통합
-- Apple Health와 완벽 연동
-- 칼로리, 심박수 자동 기록
-- 종합적인 건강 데이터 관리
+- Apple Health과의 연동
+- 칼로리 자동 기록
+- 건강 데이터 관리
 
 </tr>
 <tr width="100%">
 
 ### 🎙️ Siri 단축어
-- "Hey Siri, 러닝 시작해줘"
+- "Siri야, MyLabs에서 기록시작 하자."
 - 음성으로 간편하게 제어
-- 핸즈프리 러닝 경험
 
 </tr>
 </table>
-
-### 🌟 추가 기능
-
-- **🪟 홈 화면 위젯** - 빠른 시작과 최근 활동 요약
-- **📊 패턴 감지** - 자주 달리는 코스 자동 인식
-- **💾 오프라인 지원** - 인터넷 없이도 모든 기능 사용 가능
-- **🌏 한국어 지원** - 완벽한 현지화
 
 ## 🛠 기술 스택
 
 ### 개발 환경
 - **Language**: Swift 6.0
 - **UI Framework**: SwiftUI
-- **Minimum iOS**: 17.0+
-- **Architecture**: Modular Architecture with Tuist
-- **Database**: Core Data
-- **Testing**: XCTest
+- **Architecture**: Clean Architecture, MVVM
 
 ### 사용 기술
 ```
-SwiftUI | Core Data | HealthKit | MapKit | Core Location
-WidgetKit | ActivityKit | Siri Intents | Combine
+SwiftUI | CoreData | Combine | Tuist 
+HealthKit| MapKit
+
 ```
 
 ## 🏗 프로젝트 구조
@@ -78,17 +66,12 @@ MyLaps/
 ```mermaid
 graph TD
     A[Main] --> B[Feature]
-    A --> C[UseCase]
-    A --> D[Core]
-    A --> E[UserInterface]
     A --> F[Widget]
-    B --> C
-    B --> D
-    B --> E
-    C --> D
+    B --> C[UseCase]
+    B --> E[UserInterface]
+    C --> D[Core]
     E --> D
     F --> C
-    F --> D
 ```
 
 ## 🚀 시작하기
