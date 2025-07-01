@@ -1,32 +1,12 @@
-<div align="center">
-  
-# 🏃‍♂️ MyLaps
-
-### 당신의 러닝을 더 스마트하게
-  
-[![Swift](https://img.shields.io/badge/Swift-6.0-FA7343?style=for-the-badge&logo=swift&logoColor=white)](https://swift.org)
-[![iOS](https://img.shields.io/badge/iOS-17.0+-000000?style=for-the-badge&logo=ios&logoColor=white)](https://developer.apple.com/ios/)
-[![SwiftUI](https://img.shields.io/badge/SwiftUI-5.0-0071E3?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/xcode/swiftui/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-
-<p align="center">
-  <img src="designsample.jpg" width="30%" alt="Screenshot 1">
-  <img src="designsample2.jpeg" width="30%" alt="Screenshot 2">
-</p>
-
-[<img src="https://img.shields.io/badge/Download_on_the-App_Store-black?style=for-the-badge&logo=app-store&logoColor=white" height="50">](https://apps.apple.com/app/mylaps)
-
-</div>
-
 ## ✨ 소개
 
-**MyLaps**는 러너를 위한 종합적인 피트니스 트래킹 iOS 애플리케이션입니다. GPS 기반 실시간 트래킹부터 HealthKit 통합, Live Activities까지 - 당신의 러닝 경험을 한 단계 업그레이드합니다.
+**MyLaps**는 피트니스 트래킹 iOS 애플리케이션입니다. GPS 기반 실시간 트래킹부터 HealthKit 통합, 편리한 러닝을 위한 Siri Intent부터 위젯, Live Activity를 제공합니다.
 
 ## 🎯 주요 기능
 
 <table>
 <tr>
-<td width="50%">
+<td width="100%">
 
 ### 🗺️ 실시간 GPS 트래킹
 - 정확한 경로 추적
@@ -34,7 +14,7 @@
 - 고도 변화 기록
 
 </td>
-<td width="50%">
+<td width="100%">
 
 ### 📱 Live Activities
 - 잠금 화면에서 실시간 상태 확인
@@ -44,7 +24,7 @@
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="100%">
 
 ### ❤️ HealthKit 통합
 - Apple Health와 완벽 연동
@@ -52,7 +32,7 @@
 - 종합적인 건강 데이터 관리
 
 </td>
-<td width="50%">
+<td width="100%">
 
 ### 🎙️ Siri 단축어
 - "Hey Siri, 러닝 시작해줘"
