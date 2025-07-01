@@ -34,7 +34,7 @@ https://testflight.apple.com/join/dF8jkty9
 <tr width="100%">
 
 ### 🎙️ Siri 단축어
-- "Siri야, MyLabs에서 기록시작 하자."
+- "Siri야, MyLaps에서 기록시작 하자."
 - 음성으로 간편하게 제어
 
 </tr>
@@ -51,7 +51,7 @@ https://testflight.apple.com/join/dF8jkty9
 ### 사용 기술
 ```
 SwiftUI | CoreData | Combine | Tuist 
-HealthKit| MapKit
+HealthKit | MapKit | CloudKit
 ```
 
 
