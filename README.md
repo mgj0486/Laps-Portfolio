@@ -1,6 +1,8 @@
 ## ✨ 소개
 
+
 **MyLaps**(가제)는 피트니스 트래킹 iOS 애플리케이션입니다. GPS 기반 실시간 트래킹부터 HealthKit 통합, 편리한 러닝을 위한 Siri Intent부터 위젯, Live Activity를 제공합니다.
+https://testflight.apple.com/join/dF8jkty9
 
 ## 🎯 주요 기능
 
@@ -36,6 +38,7 @@
 </tr>
 </table>
 
+
 ## 🛠 기술 스택
 
 ### 개발 환경
@@ -47,20 +50,21 @@
 ```
 SwiftUI | CoreData | Combine | Tuist 
 HealthKit| MapKit
-
 ```
+
 
 ## 🏗 프로젝트 구조
 
 ```
 MyLaps/
-├── 📱 Main              # 앱 진입점, 라이프사이클
-├── 🎨 Feature           # UI 컴포넌트, ViewModels
+├── 📱 Main              # 앱 진입점
+├── 🎨 Feature           # MVVM 구조의 앱 구성 요소 
 ├── 💡 UseCase           # 비즈니스 로직
-├── 🔧 Core              # 공통 유틸리티
+├── 🔧 Core              # Extension, Protocol 등 유틸리티
 ├── 🎯 UserInterface     # 재사용 UI 컴포넌트
-└── 🪟 Widget            # 홈 화면 위젯
+└── 🪟 Widget            # 홈 화면 위젯을 위한 Target
 ```
+
 
 ### 모듈 의존성
 ```mermaid
@@ -115,14 +119,10 @@ xcodebuild test -scheme FeatureTest -destination 'platform=iOS Simulator,name=iP
 xcodebuild test -scheme UsecaseTest -destination 'platform=iOS Simulator,name=iPhone 15'
 ```
 
-## 📝 라이선스
-
-이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
-
 ## 👨‍💻 개발자
 
 **정문규**
-- GitHub: [@moonkyujung](https://github.com/mgj0486)
+- GitHub: [@mgj0486](https://github.com/mgj0486)
 - Email: jungmk9525@gmail.com
 
 ---
