@@ -2,6 +2,8 @@
 
 
 **MyLaps**(가제)는 피트니스 트래킹 iOS 애플리케이션입니다. GPS 기반 실시간 트래킹부터 HealthKit 통합, 편리한 러닝을 위한 Siri Intent부터 위젯, Live Activity를 제공합니다.
+
+**TestFlight** 설치필요.(외부 테스트)
 https://testflight.apple.com/join/dF8jkty9
 
 ## 🎯 주요 기능
