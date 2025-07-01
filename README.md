@@ -79,7 +79,7 @@ graph TD
 ### 요구사항
 - Xcode 15.0+
 - iOS 17.0+
-- [Tuist](https://tuist.io) 4.0+
+- [Tuist](https://tuist.io) 4.34.3+
 
 ### 설치 및 실행
 
@@ -115,43 +115,14 @@ xcodebuild test -scheme FeatureTest -destination 'platform=iOS Simulator,name=iP
 xcodebuild test -scheme UsecaseTest -destination 'platform=iOS Simulator,name=iPhone 15'
 ```
 
-## 📋 권한 설정
-
-MyLaps는 다음 권한을 요청합니다:
-
-| 권한 | 용도 |
-|------|------|
-| 🏃‍♂️ **Motion & Fitness** | 활동 데이터 수집 |
-| 📍 **위치 (항상/사용 중)** | GPS 트래킹 |
-| ❤️ **HealthKit** | 건강 데이터 연동 |
-| 🔔 **알림** | 러닝 알림 |
-
-## 🤝 기여하기
-
-프로젝트 개선에 기여해주세요!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📝 라이선스
 
 이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
 
 ## 👨‍💻 개발자
 
-**Moon Kyu Jung**
-- GitHub: [@moonkyujung](https://github.com/moonkyujung)
-- Email: your.email@example.com
+**정문규**
+- GitHub: [@moonkyujung](https://github.com/mgj0486)
+- Email: jungmk9525@gmail.com
 
 ---
-
-<div align="center">
-  
-**[⬆ 맨 위로 돌아가기](#-mylaps)**
-
-Made with ❤️ in Korea
-
-</div>
