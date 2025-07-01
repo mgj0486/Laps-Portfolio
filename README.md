@@ -90,16 +90,43 @@ graph TD
 1. **저장소 클론**
 ```bash
 git clone https://github.com:mgj0486/Laps-Portfolio.git
-cd MyLaps
+cd Laps
 ```
 
-2. **Tuist 설치** (이미 설치되어 있다면 생략)
+2. **mise 설치** (이미 설치되어 있다면 생략)
 ```bash
-curl -Ls https://install.tuist.io | bash
+curl https://mise.run | sh
 ```
 
-3. **프로젝트 생성**
+3. **mise 활성화 (shell 설정)**
 ```bash
+echo 'eval "$(mise activate zsh)"' >> ~/.zshrc
+  source ~/.zshrc
+```
+
+4. **Tuist 플러그인 추가**
+```bash
+mise plugins add tuist
+```
+
+5. **Tuist 설치**
+```bash
+mise install tuist@4.34.3
+```
+
+6. **Tuist 전역 설정**
+```bash
+mise global tuist@latest
+```
+
+6. **Tuist 전역 설정**
+```bash
+mise global tuist@latest
+```
+
+7. **Workspace 생성**
+```bash
+tuist install
 tuist generate
 ```
 
