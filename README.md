@@ -89,8 +89,7 @@ graph TD
 
 1. **저장소 클론**
 ```bash
-git clone https://github.com:mgj0486/Laps-Portfolio.git
-cd Laps
+git clone git@github.com:mgj0486/Laps-Portfolio.git
 ```
 
 2. **mise 설치** (이미 설치되어 있다면 생략)
