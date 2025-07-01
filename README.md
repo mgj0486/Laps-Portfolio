@@ -1,14 +1,14 @@
 ## ✨ 소개
 
-![Image](https://github.com/user-attachments/assets/f922edb0-8e91-4c93-ae93-9cf481ba36e5)
+<img height="300" alt="Image" src="https://github.com/user-attachments/assets/f922edb0-8e91-4c93-ae93-9cf481ba36e5" />
 
-![Image](https://github.com/user-attachments/assets/4958dcec-a1a3-484f-9e4d-d426e633a38b)
+<img height="300" alt="Image" src="https://github.com/user-attachments/assets/4958dcec-a1a3-484f-9e4d-d426e633a38b" />
 
-![Image](https://github.com/user-attachments/assets/a7675b4b-e75f-46c8-8d2c-842494f59d89)
+<img height="300" alt="Image" src="https://github.com/user-attachments/assets/a7675b4b-e75f-46c8-8d2c-842494f59d89" />
 
-![Image](https://github.com/user-attachments/assets/79f996dd-540f-491b-9a85-1ba89529e2e4)
+<img height="300" alt="Image" src="https://github.com/user-attachments/assets/79f996dd-540f-491b-9a85-1ba89529e2e4" />
 
-<img width="415" alt="Image" src="https://github.com/user-attachments/assets/59d044f7-5306-4717-b103-39202a244a6f" />
+<img height="300" alt="Image" src="https://github.com/user-attachments/assets/59d044f7-5306-4717-b103-39202a244a6f" />
 
 **MyLaps**(가제)는 피트니스 트래킹 iOS 애플리케이션입니다. GPS 기반 실시간 트래킹부터 HealthKit 통합, 편리한 러닝을 위한 Siri Intent부터 위젯, Live Activity를 제공합니다.
 
