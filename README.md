@@ -89,7 +89,7 @@ graph TD
 
 1. **저장소 클론**
 ```bash
-git clone https://github.com/yourusername/MyLaps.git
+git clone https://github.com:mgj0486/Laps-Portfolio.git
 cd MyLaps
 ```
 
