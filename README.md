@@ -123,9 +123,8 @@ mise global tuist@latest
 mise global tuist@latest
 ```
 
-7. **Workspace 생성**(Laps_Portfolio 경로에서)
+7. **Workspace 생성**(Laps-Portfolio 경로에서)
 ```bash
-tuist install
 tuist generate
 ```
 
