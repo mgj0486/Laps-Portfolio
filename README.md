@@ -103,22 +103,6 @@ curl -Ls https://install.tuist.io | bash
 tuist generate
 ```
 
-4. **실행**
-```bash
-./run-ios.sh
-# 또는 Xcode에서 Main scheme 선택 후 실행
-```
-
-## 🧪 테스트
-
-```bash
-# Feature 모듈 테스트
-xcodebuild test -scheme FeatureTest -destination 'platform=iOS Simulator,name=iPhone 15'
-
-# UseCase 모듈 테스트  
-xcodebuild test -scheme UsecaseTest -destination 'platform=iOS Simulator,name=iPhone 15'
-```
-
 ## 👨‍💻 개발자
 
 **정문규**
