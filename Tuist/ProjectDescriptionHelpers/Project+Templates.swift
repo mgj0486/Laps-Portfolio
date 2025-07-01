@@ -15,7 +15,6 @@ public let widgetEntitlementsPath: Path = "../../widget.entitlements"
 
 public let settings: Settings = .settings(
     base: [
-        "DEVELOPMENT_TEAM": SettingValue(stringLiteral: privateData.developer_id),
             "OTHER_LDFLAGS": "-Objc",
           ],
     configurations: [
@@ -26,8 +25,6 @@ public let settings: Settings = .settings(
 
 extension Workspace {
     public static let workspaceName = "Laps"
-    public static let developer_id = privateData.developer_id
-    public static let organization_name = privateData.organization_name
 }
 
 extension Project {
@@ -46,7 +43,7 @@ extension Project {
     ) -> Project {
         Project(
             name: name,
-            organizationName: Workspace.organization_name,
+            organizationName: "organizationName",
             options: .options(
                 disableBundleAccessors: true,
                 disableSynthesizedResourceAccessors: true
@@ -76,7 +73,7 @@ extension Target {
                       destinations: [.iPhone, .iPad, .macWithiPadDesign],
                       product: product,
                       productName: targetName,
-                      bundleId: "personal" + "." + Workspace.organization_name + "." + Workspace.workspaceName + (infoPlist == nil ? ".\(targetName)" : (product == .appExtension ? ".Widget" : "")),
+                      bundleId: "com" + "." + "organizationName" + "." + Workspace.workspaceName + (infoPlist == nil ? ".\(targetName)" : (product == .appExtension ? ".Widget" : "")),
                       deploymentTargets: .iOS(product == .appExtension ? Project.widgetVersion : Project.targetVersion),
                       infoPlist: infoPlist == nil ? .default : InfoPlist.file(path: infoPlist!),
                       sources: sources ?? ["Sources/**"],
@@ -104,7 +101,7 @@ extension Target {
                       destinations: [.iPhone, .iPad, .macWithiPadDesign],
                       product: product,
                       productName: targetName,
-                      bundleId: Workspace.organization_name + "." + Workspace.workspaceName + "." + "\(product == .unitTests ? "\(targetName)Tests" : targetName)",
+                      bundleId: "com" + "." + "organizationName" + "." + Workspace.workspaceName + "." + "\(product == .unitTests ? "\(targetName)Tests" : targetName)",
                       deploymentTargets: .iOS(Project.targetVersion),
                       infoPlist: .default,
                       sources: [product == .unitTests ? "Tests/**" : "Sources/**"],

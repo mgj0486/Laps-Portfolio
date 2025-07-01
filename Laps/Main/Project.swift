@@ -38,7 +38,7 @@ let project = Project.create(
             name: Module.widget.name,
             destinations: [.iPhone, .iPad, .appleVisionWithiPadDesign],
             product: .appExtension,
-            bundleId: "personal.\(Workspace.organization_name).\(Workspace.workspaceName).\(Module.widget.name)",
+            bundleId: "com.organizationName.\(Workspace.workspaceName).\(Module.widget.name)",
             deploymentTargets: .iOS(Project.widgetVersion),
             infoPlist: InfoPlist.file(path: widgetInfoplistpath),
             sources: ["../\(Module.widget.name)/Sources/**"],
